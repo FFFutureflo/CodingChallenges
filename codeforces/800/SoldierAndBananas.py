@@ -26,7 +26,11 @@ Read Input and split it in 3 integers
 - money of soldier = n
 - bananas he wants = w
 
-costs = w * k + w -1 * k + ... 1 * k
+costs = 1 * k + 2 * k + ... + w * k
+
+borrow = costs - n
+
+if borrow < 0 : borrow = 0
 
 Output money he needs to borrow
 """
